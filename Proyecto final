@@ -1,0 +1,134 @@
+print ("Este es un traductor de colores")
+print ("Presiona 1 para traducir de español a italiano")
+print ("Presiona 2 para traducir de inglés a español")
+print ("Presiona 3 para traducir de español a portugués")
+print ("Presiona 4 para traducir de español a a japonés")
+print ("Presiona 5 para traducir de japonés a español")
+opcion = int(input("Escribe la opción que deseas usar: ")) 
+
+if opcion == 1:
+   print ("Español a italiano, escriba el color que deseas traducir: ")
+   color=(input(""))
+   if color=="azul":
+      print("blu")
+   elif color=="rojo":
+      print("rosso")
+   elif color=="amarillo":
+      print("giallo")
+   elif color=="verde":
+      print("verde")
+   elif color=="naranja":
+      print("arancia")
+   elif color=="morado":
+      print("viola")
+   elif color=="cafe":
+      print("caffe")
+   elif color=="rosa":
+      print("rosa")
+   elif color=="negro":
+      print("nero")
+   elif color=="blanco":
+      print("bianco")
+   else : 
+      print ("Opción invalida")
+if opcion == 2:
+   print ("Inglés a español, escriba el color que deseas traducir: ")
+   color=(input(""))
+   if color=="blue":
+      print("azul")
+   elif color=="red":
+      print("rojo")
+   elif color=="yellow":
+      print("amarillo")
+   elif color=="green":
+      print("verde")
+   elif color=="orange":
+      print("naranja")
+   elif color=="purple":
+      print("morado")
+   elif color=="brown":
+      print("cafe")
+   elif color=="pink":
+      print("rosa")
+   elif color=="black":
+      print("negro")
+   elif color=="white":
+      print("blanco")
+else : 
+   print ("Opción invalida")
+if opcion == 3:
+   print ("Español a portugués, escriba el color que deseas traducir: ")
+   color=(input(""))
+   if color=="azul":
+      print("azul")
+   elif color=="rojo":
+      print("vermelho")
+   elif color=="amarillo":
+      print("amarelo")
+   elif color=="verde":
+      print("verde")
+   elif color=="naranja":
+      print("laranja")
+   elif color=="morado":
+      print("roxo")
+   elif color=="cafe":
+      print("cafe")
+   elif color=="rosa":
+      print("rosa")
+   elif color=="negro":
+      print("preto")
+   elif color=="blanco":
+      print("branco")
+   else : 
+      print ("Opción invalida")
+
+if opcion == 4: 
+   print ("Español a japonés(romanji), escriba el color que deseas traducir: ")
+   color=(input(""))
+   if color=="azul":
+      print("aoi")
+   elif color=="rojo":
+      print("akai")
+   elif color=="amarillo":
+      print("kiiroi")
+   elif color=="verde":
+      print("midori")
+   elif color=="naranja":
+      print("orenji")
+   elif color=="morado":
+      print("murasaki")
+   elif color=="cafe":
+      print("chairo")
+   elif color=="rosa":
+      print("pinku")
+   elif color=="negro":
+      print("kuroi")
+   elif color=="blanco":
+      print("shiroi")
+else : 
+   print ("Opción invalida")
+if opcion == 5:
+   print ("Japonés(romanji) a español, escriba el color que deseas traducir: ")
+   color=(input(""))
+   if color=="aoi":
+      print("azul")
+   elif color=="akai":
+      print("rojo")
+   elif color=="kiiro":
+      print("amarillo")
+   elif color=="midori":
+      print("verde")
+   elif color=="orenji":
+      print("naranja")
+   elif color=="murasaki":
+      print("morado")
+   elif color=="chairo":
+      print("cafe")
+   elif color=="pinku":
+      print("rosa")
+   elif color=="kuroi":
+      print("negro")
+   elif color=="shiroi":
+      print("blanco")
+else : 
+   print ("Opción invalida")
